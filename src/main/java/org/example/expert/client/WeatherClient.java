@@ -33,7 +33,6 @@ public class WeatherClient {
         if (weatherArray == null || weatherArray.length == 0) {
                 throw new ServerException("날씨 데이터가 없습니다.");
         }
-    }
 
         String today = getCurrentDate();
 
